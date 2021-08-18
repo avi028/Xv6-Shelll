@@ -1,0 +1,4 @@
+cat README
+cat README > hello.txt
+ls ; cat < README | grep xv6 > helloworld.txt
+ps | cat > out.txt && procinfo 2 | cat > out2.txt
